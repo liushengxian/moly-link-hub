@@ -22,8 +22,8 @@ jobs:
         run: npm ci
 
       - name: Echo REPO_NAME
-        run: echo "REPO_NAME=$(echo '${{ github.repository }}'
-        
+        run: echo "REPO_NAME=$(echo '${{ github.repository }}')"
+
       - name: Build
         run: npm run build:github
 
