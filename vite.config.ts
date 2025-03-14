@@ -23,5 +23,5 @@ export default defineConfig({
     alias: {
       '@src': path.resolve(path.dirname(fileURLToPath(import.meta.url)), './src')
     }
-  }
+  },
 })
