@@ -15,6 +15,7 @@ if (redirect) {
   });
 }
 
+
 createApp(App)
   .use(router)
   .mount('#app')
