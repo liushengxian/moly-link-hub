@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue';
+import { ref, watch } from 'vue';
 import WebsiteCard from '@src/components/WebsiteCard.vue';
 import AddWebsiteDialog from '@src/components/AddWebsiteDialog.vue';
 
