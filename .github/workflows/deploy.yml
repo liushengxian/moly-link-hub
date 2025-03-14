@@ -23,15 +23,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          # Set base URL explicitly in the build
-          BASE_URL: /${{ github.event.repository.name }}/
-
-      - name: Copy index.html to 404.html
-        run: cp dist/index.html dist/404.html
-
-      - name: Add .nojekyll file
-        run: touch dist/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
