@@ -39,3 +39,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically creates this secret
 permissions:
   contents: write
+  pages: write
+  
