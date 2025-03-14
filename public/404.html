@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Extract the path from the URL
+    const path = window.location.pathname;
+    const repo = path.split('/')[1]; // Get repository name
+    
+    // Store the full path including query string and hash
+    sessionStorage.setItem('redirect', path.replace(`/${repo}`, '') + window.location.search + window.location.hash);
+    
+    // Redirect to the root of the site
+    window.location.href = window.location.origin + '/' + repo;
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

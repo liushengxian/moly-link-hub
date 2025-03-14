@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+.pnp
+.pnp.js
+
+# Build artifacts
+dist
+dist-ssr
+*.local
+coverage
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing
+/coverage
+.nyc_output
+
+# Vite
+.vite-ssg-temp
+
+# Vue dev tools extension
+.vscode-vue
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Local SSL certificates
+*.pem
+
+# Temporary files
+.temp
+.tmp
+.cache
