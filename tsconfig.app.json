@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "composite": true,
+    "module": "NodeNext",
     "baseUrl": ".",
     "paths": {
       "@src/*": ["./src/*"]
     },
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "skipLibCheck": true,
     "strict": true,
     "noUnusedLocals": true,
